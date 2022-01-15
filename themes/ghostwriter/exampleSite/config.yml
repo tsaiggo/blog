@@ -18,6 +18,7 @@ markup:
     lineNumbersInTable: true
     noClasses: true
     tabWidth: 2
+    style: rainbow_dash
 
 privacy:
   disqus:
