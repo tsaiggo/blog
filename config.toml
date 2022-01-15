@@ -2,3 +2,15 @@ baseURL = 'https://www.tsaiggo.life/'
 languageCode = 'en-us'
 title = "tsaiggo's blog"
 theme = 'ghostwriter'
+
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = ""
+        lineNoStart = 1
+        lineNos = false
+        lineNumbersInTable = true
+        noClasses = true
+        style = "monokai"
+        tabWidth = 4
