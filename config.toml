@@ -1,7 +1,7 @@
 baseURL = 'https://www.tsaiggo.life/'
 languageCode = 'en-us'
 title = "tsaiggo's blog"
-theme = 'congo'
+theme = 'hugo-notepadium'
 
 [markup]
     [markup.highlight]
