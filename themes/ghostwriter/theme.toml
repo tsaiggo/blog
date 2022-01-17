@@ -17,23 +17,14 @@ min_version = "0.60"
     repo = "https://github.com/roryg/ghostwriter"
 [markup]
     [markup.highlight]
+        anchorLineNos = false
         codeFences = true
         guessSyntax = false
-        hl_Lines = ""
+        hl_Lines = ''
+        lineAnchors = ''
         lineNoStart = 1
         lineNos = false
         lineNumbersInTable = true
         noClasses = true
-        style = "monokai"
+        style = 'monokai'
         tabWidth = 4
-#        anchorLineNos = false
-#        codeFences = true
-#        guessSyntax = false
-#        hl_Lines = ''
-#        lineAnchors = ''
-#        lineNoStart = 1
-#        lineNos = false
-#        lineNumbersInTable = true
-#        noClasses = true
-#        style = 'rainbow_dash'
-#        tabWidth = 4
