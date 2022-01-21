@@ -3,16 +3,41 @@ languageCode = 'en-us'
 title = "tsaiggo's blog"
 theme = 'ghostwriter'
 
-[markup]
-    [markup.highlight]
-        anchorLineNos = false
-        codeFences = true
-        guessSyntax = false
-        hl_Lines = ''
-        lineAnchors = ''
-        lineNoStart = 1
-        lineNos = false
-        lineNumbersInTable = true
-        noClasses = true
-        style = 'monokai'
-        tabWidth = 4
+#[markup]
+#    [markup.highlight]
+#        anchorLineNos = false
+#        codeFences = true
+#        guessSyntax = false
+#        hl_Lines = ''
+#        lineAnchors = ''
+#        lineNoStart = 1
+#        lineNos = false
+#        lineNumbersInTable = true
+#        noClasses = true
+#        style = 'monokai'
+#        tabWidth = 4
+
+
+[params]
+    headline = 'My headline'
+    description = 'My description'
+    github = "https://github.com/tsaiggo"
+    linkedin = "https://www.linkedin.com/in/%E6%B4%8B-%E8%94%A1-71383b18a/"
+    twitter = "https://twitter.com/tsaiggo"
+    email = "ttsaiggo@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    rss = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+    exponeaJsUrl = ""
+    exponeaTarget = ""
+    exponeaToken = ""
+    exponeaTrackVisits = false
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+    fathomUrl = ""
+    fathomSiteId = ""
+    domain = ""
+    # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+    serverURL = "https://www.tsaiggo.life/"
