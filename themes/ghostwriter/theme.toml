@@ -16,7 +16,7 @@ min_version = "0.60"
     homepage = "http://ghost.jollygoodthemes.com/ghostwriter/"
     repo = "https://github.com/roryg/ghostwriter"
 [markup]
-    [markup.highlight]
+    [highlight]
         codeFences = true
         guessSyntax = true
         hl_Lines = ""

@@ -4,15 +4,15 @@ title = "tsaiggo's blog"
 theme = 'ghostwriter'
 
 [markup]
-    [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = true
-    tabWidth = 4
+    [highlight]
+        codeFences = true
+        guessSyntax = true
+        hl_Lines = ""
+        lineNoStart = 1
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = true
+        tabWidth = 4
 #        anchorLineNos = false
 #        codeFences = true
 #        guessSyntax = false
