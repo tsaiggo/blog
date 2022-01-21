@@ -41,3 +41,7 @@ theme = 'ghostwriter'
     domain = ""
     # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
     serverURL = "https://www.tsaiggo.life/"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
