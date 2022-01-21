@@ -51,5 +51,6 @@ theme = 'ghostwriter'
     serverURL = "https://www.tsaiggo.life/"
 
 [taxonomies]
-    category = "categories"
     tag = "tags"
+    category = "categories"
+    seris = "series"
