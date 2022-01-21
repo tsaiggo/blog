@@ -20,7 +20,7 @@ markup:
 #    tabWidth: 2
 #    style: rainbow_dash
     codeFences: true
-    guessSyntax: false
+    guessSyntax: true
     hl_Lines: ""
     lineNoStart: 1
     lineNos: false
