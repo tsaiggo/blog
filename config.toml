@@ -1,7 +1,7 @@
 baseURL = 'https://www.tsaiggo.life/'
 languageCode = 'en-us'
 title = "tsaiggo's blog"
-theme = 'doks-child-theme-master'
+theme = 'hugo-theme-fuji-master'
 
 [markup]
     [highlight]
