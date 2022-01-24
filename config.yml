@@ -1,4 +1,4 @@
 baseURL: 'https://www.tsaiggo.life/'
 title: "tsaiggo's blog"
 paginate: 5
-theme: hugo-PaperMod
+theme: PaperMod
