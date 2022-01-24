@@ -2,3 +2,8 @@ baseURL = 'https://www.tsaiggo.life/'
 languageCode = 'en-us'
 title = "tsaiggo's blog"
 theme = 'PaperMod'
+
+[params]
+    [homeInfoParams]
+        Title = 'Hi there wave'
+        Content = 'Can be Info, links, about...'
