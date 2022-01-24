@@ -5,5 +5,5 @@ theme = 'PaperMod'
 
 [params]
     [params.homeInfoParams]
-        Title = 'Hi there wave'
-        Content = 'Can be Info, links, about...'
+        Title = "Hi, I'm tsaiggo!"
+        Content = "野生服务端程序员 ｜ 闲来无事喜欢做饭（讨厌洗碗） ｜ 奶茶收割机 ｜ 热衷买书（买了等于看了，看了等于会了）"
