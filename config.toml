@@ -4,6 +4,6 @@ title = "tsaiggo's blog"
 theme = 'PaperMod'
 
 [params]
-    [homeInfoParams]
+    [params.homeInfoParams]
         Title = 'Hi there wave'
         Content = 'Can be Info, links, about...'
