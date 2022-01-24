@@ -68,11 +68,13 @@ params:
       - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
   socialIcons:
     - name: github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: KoFi
-      url: "https://ko-fi.com/adityatelange"
+      url: "https://github.com/tsaiggo"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/%E6%B4%8B-%E8%94%A1-71383b18a/"
     - name: RsS
       url: "index.xml"
+    - name: email
+      url: "ttsaiggo@gmail.com"
 
   editPost:
     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
