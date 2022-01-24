@@ -7,3 +7,7 @@ theme = 'PaperMod'
     [params.homeInfoParams]
         Title = "Hi, I'm tsaiggo!"
         Content = "野生服务端程序员 ｜ 闲来无事喜欢做饭 ｜ 奶茶收割机 ｜ 喜欢买书 ｜ 啥都学，啥都不精"
+
+    [params.socialIcons]
+        name = 'github'
+        url = "https://github.com/adityatelange/hugo-PaperMod"
