@@ -21,6 +21,9 @@ languages:
     weight: 1
     menu:
       main:
+        - name: Home
+          url: /
+          weight: 5
         - name: Archive
           url: archives
           weight: 5
