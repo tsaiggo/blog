@@ -23,7 +23,7 @@ languages:
       main:
         - name: Home
           url: /
-          weight: 5
+          weight: 0
         - name: Archive
           url: archives
           weight: 5
