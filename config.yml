@@ -46,6 +46,8 @@ params:
   author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
 
+  ShowAllPagesInArchive: true
+
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
