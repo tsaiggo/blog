@@ -1,7 +1,8 @@
 ---
 title: MIT 6.824 -- MapReduce, Simplified Data Processing on Large Clusters
 date: 2020-05-23 13:46:12
-category: ["MIT 6.824"]
+categories: ["MIT 6.824"]
+tags: ["分布式", "大数据", "MIT 6.824"]
 showToc: true
 ---
 
