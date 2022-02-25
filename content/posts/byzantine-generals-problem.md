@@ -6,9 +6,9 @@ tags: ["分布式"]
 showToc: true
 ---
 
-MIT 分布式课程学习笔记	[Map Reduce paper 地址][Map Reduce PDF Address]
+[The Byzantine Generals Problem][The Byzantine Generals Problem Address]
 
-[Map Reduce PDF Address]:http://nil.csail.mit.edu/6.824/2018/papers/gfs.pdf
+[The Byzantine Generals Problem Address]:https://lamport.azurewebsites.net/pubs/byz.pdf
 
 <!--more-->
 
