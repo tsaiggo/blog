@@ -59,7 +59,23 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowToc: true
-  # comments: false
+  comments:
+    enabled: true
+    provider: utterances
+    utterances:
+      # repo 必填项，指向你的`comments-repo`，参照写法如 qin2dim/blog-comments 注意别加.github.io
+      repo: tsaiggo/blog-comments
+
+      # issueTerm: 必填项，issue标题的切分规则，可写 pathname title url
+      issueTerm: pathname
+
+      # theme 必填项，评论区的主题
+      # 可选 github-light github-dark preferred-color-scheme
+      # github-dark-origin lcy-dark dark-blue photon-dark boxy-light
+      theme: github-light
+
+      # label 可选项，提交的issue的默认标签，不填则不打标签。
+      label:
   images: ["papermod-cover.png"]
 
   homeInfoParams:
