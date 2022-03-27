@@ -60,7 +60,7 @@ params:
   ShowCodeCopyButtons: true
   ShowToc: true
   comments:
-    enabled: true
+    enabled: false
     provider: utterances
     utterances:
       # repo 必填项，指向你的`comments-repo`，参照写法如 qin2dim/blog-comments 注意别加.github.io
