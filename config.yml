@@ -81,10 +81,7 @@ params:
   homeInfoParams:
     Title: "Hi, I'm tsaiggo!"
     Content: >
-      Welcome to demo of hugo's theme PaperMod.
-      - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-      - Do give a 🌟 on Github !
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+      **Hello, it's tsaiggo!!!**
   socialIcons:
     - name: github
       url: "https://github.com/tsaiggo"
