@@ -51,6 +51,14 @@
     {{- end }}
   </footer>
 
+  <script src="https://utteranc.es/client.js"
+          repo="tsaiggo/blog-comments"
+          issue-term="title"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
