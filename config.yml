@@ -95,8 +95,8 @@ params:
       url: "https://www.linkedin.com/in/%E6%B4%8B-%E8%94%A1-71383b18a/"
     - name: RsS
       url: "index.xml"
-    - name: email
-      url: "ttsaiggo@gmail.com"
+    - name: twitter
+      url: "https://twitter.com/tsaiggo"
 
   editPost:
     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
