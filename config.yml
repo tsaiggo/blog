@@ -105,8 +105,8 @@ params:
 
   label:
 #    text: "Home"
-    icon: icon.png
-    iconHeight: 35
+#    icon: icon.png
+#    iconHeight: 35
 
   # analytics:
   #     google:
