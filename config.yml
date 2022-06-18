@@ -113,11 +113,11 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
    assets:
-       favicon: "/themes/images/icon.png"
-       favicon16x16: "/themes/images/icon.png"
-       favicon32x32: "/themes/images/icon.png"
-       apple_touch_icon: "/themes/images/icon.png"
-       safari_pinned_tab: "/themes/images/icon.png"
+       favicon: "./themes/PaperMod/images/icon.png"
+       favicon16x16: "./themes/PaperMod/images/icon.png"
+       favicon32x32: "./themes/PaperMod/images/icon.png"
+       apple_touch_icon: "./themes/PaperMod/images/icon.png"
+       safari_pinned_tab: "./themes/PaperMod/images/icon.png"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
