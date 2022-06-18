@@ -2,7 +2,7 @@
 title: redis 6.0 学习笔记 -- 字符串
 date: 2020-06-29 13:46:12
 category: ["redis"]
-
+showToc: true
 ---
 
 简单动态字符串（Simple Dynamic Strings, SDS）是Redis的基本数据结构之一，用于存储字符串和整型数据。
