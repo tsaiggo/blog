@@ -105,7 +105,7 @@ params:
 
   label:
 #    text: "Home"
-#    icon: icon.png
+#    icon: favicon.png
 #    iconHeight: 35
 
   # analytics:
@@ -113,11 +113,11 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
    assets:
-       favicon: "./themes/PaperMod/images/icon.png"
-       favicon16x16: "./themes/PaperMod/images/icon.png"
-       favicon32x32: "./themes/PaperMod/images/icon.png"
-       apple_touch_icon: "./themes/PaperMod/images/icon.png"
-       safari_pinned_tab: "./themes/PaperMod/images/icon.png"
+       favicon: "/favicon.ico"
+       favicon16x16: "/favicon.ico"
+       favicon32x32: "/favicon.ico"
+       apple_touch_icon: "/favicon.ico"
+       safari_pinned_tab: "/favicon.ico"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
