@@ -63,8 +63,8 @@ params:
     enabled: false
     provider: utterances
     utterances:
-      # repo 必填项，指向你的`comments-repo`，参照写法如 qin2dim/blog-comments 注意别加.github.io
-      repo: tsaiggo/blog-comments
+      # repo 必填项，指向你的`comments-repo`，参照写法如 qin2dim/blog 注意别加.github.io
+      repo: tsaiggo/blog
 
       # issueTerm: 必填项，issue标题的切分规则，可写 pathname title url
       issueTerm: pathname
