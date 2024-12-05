@@ -1,0 +1,163 @@
+baseURL = "https://www.tsaiggo.life/"
+title = "tsaiggo's blog"
+paginate = 5
+theme = "PaperMod"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[minify]
+  disableXML = true
+  # minifyOutput = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        name = "Archive"
+        url = "archives"
+        weight = 5
+
+      [[languages.en.menu.main]]
+        name = "Search"
+        url = "search/"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags/"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        name = "Categories"
+        url = "categories/"
+        weight = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author = "tsaiggo"
+  # author = ["Me", "You"]
+
+  ShowAllPagesInArchive = true
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  displayFullLangName = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.comments]
+    enabled = false
+    provider = "utterances"
+
+    [params.comments.utterances]
+      repo = "tsaiggo/blog"
+      issueTerm = "pathname"
+      theme = "github-light"
+      # label = ""
+
+  images = ["papermod-cover.png"]
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm tsaiggo!"
+    Content = """
+      **互联网低阶代码搬运工、资深摸鱼专家**
+
+      - 现役 C# 打工人，曾经的 Java Developer、野生 gopher、rust初学者
+      
+      - 热爱做饭 ｜ 尝试跑步减肥🏃中 ｜ 果茶上瘾患者
+      
+      - 越南河粉真好吃！！！！
+    """
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/tsaiggo"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/%E6%B4%8B-%E8%94%A1-71383b18a/"
+
+  [[params.socialIcons]]
+    name = "RsS"
+    url = "index.xml"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/tsaiggo"
+
+  [params.editPost]
+    URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    Text = "Suggest Changes"
+    appendFilePath = true
+
+  # [params.label]
+  #   text = "Home"
+  #   icon = "favicon.png"
+  #   iconHeight = 35
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon.ico"
+    favicon32x32 = "/favicon.ico"
+    apple_touch_icon = "/favicon.ico"
+    safari_pinned_tab = "/favicon.ico"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    # highlight:
+    #     # anchorLineNos = true
+    #     codeFences = true
+    #     guessSyntax = true
+    #     lineNos = true
+    #     # noClasses = false
+    #     style = "monokai"
+
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
