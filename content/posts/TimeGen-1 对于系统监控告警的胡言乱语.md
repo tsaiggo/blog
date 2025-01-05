@@ -1,5 +1,5 @@
 ---
-title: [Draft] TimeGen-1 对于系统监控告警的胡言乱语
+title: DraftTimeGen-1 对于系统监控告警的胡言乱语
 date: 2025-01-05
 categories: ["沉淀"]
 tags: ["随想", "Monitroing"]

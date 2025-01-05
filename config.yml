@@ -1,6 +1,7 @@
 baseURL: 'https://www.tsaiggo.life/'
 title: "tsaiggo's blog"
-paginate: 5
+pagination:
+  paginate: 5
 theme: PaperMod
 
 enableInlineShortcodes: true
