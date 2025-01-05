@@ -3,7 +3,6 @@ title: "tsaiggo's blog"
 pagination:
   paginate: 5
 theme: PaperMod
-languageCode: "en-us"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -17,9 +16,11 @@ minify:
   disableXML: true
   # minifyOutput: true
 
+languageCode: "en-us"
 languages:
   en:
     languageName: "English"
+    languageCode: "en-us"
     weight: 1
     menu:
       main:
