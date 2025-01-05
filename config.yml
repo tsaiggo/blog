@@ -1,6 +1,7 @@
 baseURL: 'https://www.tsaiggo.life/'
 title: "tsaiggo's blog"
-paginate: 5
+pagination:
+  paginate: 5
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -15,9 +16,11 @@ minify:
   disableXML: true
   # minifyOutput: true
 
+languageCode: "en-us"
 languages:
   en:
     languageName: "English"
+    languageCode: "en-us"
     weight: 1
     menu:
       main:
